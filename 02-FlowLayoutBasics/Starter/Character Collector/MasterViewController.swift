@@ -94,6 +94,7 @@ extension MasterViewController {
 
 // MARK: UICollectionViewDelegateFlowLayout
 extension MasterViewController: UICollectionViewDelegateFlowLayout {
+    
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
         let width = Int((collectionView.frame.width / columns) - (inset + spacing))
