@@ -34,6 +34,8 @@ class MasterViewController: UICollectionViewController {
     
     navigationController!.isToolbarHidden = true
     
+    collectionView!.contentInset = UIEdgeInsets(top: 20, left: 0, bottom: 0, right: 0)
+    
     let width = collectionView!.bounds.width - 4.0
     let layout = collectionViewLayout as! UICollectionViewFlowLayout
     layout.itemSize = CGSize(width: width, height: 62)
