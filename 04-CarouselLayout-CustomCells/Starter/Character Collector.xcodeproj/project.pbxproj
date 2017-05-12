@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E164B2E01EC5FD9000EB20E4 /* RoundedCharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E164B2DF1EC5FD9000EB20E4 /* RoundedCharacterCell.swift */; };
 		F5242B2D1DEE9F3100EC44AE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5242B2C1DEE9F3100EC44AE /* DetailViewController.swift */; };
 		F53106FB1DEF581800768D8D /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53106FA1DEF581800768D8D /* GradientView.swift */; };
 		F538A9D91DF362E700F8C52F /* CharacterFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F538A9D81DF362E700F8C52F /* CharacterFlowLayout.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E164B2DF1EC5FD9000EB20E4 /* RoundedCharacterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCharacterCell.swift; sourceTree = "<group>"; };
 		F5242B2C1DEE9F3100EC44AE /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		F53106FA1DEF581800768D8D /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		F538A9D81DF362E700F8C52F /* CharacterFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterFlowLayout.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 			children = (
 				F53106FA1DEF581800768D8D /* GradientView.swift */,
 				F577C9011DEE62FB004F074C /* CharactersCell.swift */,
+				E164B2DF1EC5FD9000EB20E4 /* RoundedCharacterCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				F577C8E81DEE419A004F074C /* AppDelegate.swift in Sources */,
 				F577C8FD1DEE51AE004F074C /* Characters.swift in Sources */,
 				F53106FB1DEF581800768D8D /* GradientView.swift in Sources */,
+				E164B2E01EC5FD9000EB20E4 /* RoundedCharacterCell.swift in Sources */,
 				F5242B2D1DEE9F3100EC44AE /* DetailViewController.swift in Sources */,
 				F577C8FF1DEE61D7004F074C /* MasterViewController.swift in Sources */,
 				F538A9D91DF362E700F8C52F /* CharacterFlowLayout.swift in Sources */,

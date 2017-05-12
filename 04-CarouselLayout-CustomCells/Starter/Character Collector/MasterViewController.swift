@@ -73,12 +73,11 @@ extension MasterViewController {
   }
   
   override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-    let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CharacterCell", for: indexPath) as! CharactersCell
+    let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CharacterCell", for: indexPath) as! RoundedCharacterCell
     
     // Configure the cell
     let character = charactersData[indexPath.item]
-    cell.characterImage.image = UIImage(named: character.name)
-    cell.characterTitle.text = character.title
+    cell.character = character
     
     return cell
   }
